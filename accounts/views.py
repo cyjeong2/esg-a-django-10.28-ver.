@@ -8,7 +8,7 @@ login = LoginView.as_view(
     template_name="accounts/login_form.html",
 )
 logout = LogoutView.as_view(
-    nex_page="/accounts/login/",
+    next_page="/accounts/login/",
 )
 @login_required
 def profile(request):
