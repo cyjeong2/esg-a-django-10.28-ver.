@@ -1,0 +1,6 @@
+db.sqlite3
+venv
+__pycache__
+.vscode
+.idea
+# jupyter 하고 난 다음에 생성되는 파일 추가할 것
